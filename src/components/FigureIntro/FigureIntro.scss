@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+.container-img{
+    background-image: url('../../assets/bground.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+}
+
+.container-winners{
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:200px;
+    background-color: #2e2e2e;
+}
+
+.winner{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+    align-items: center;
+    color: #ff9914;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+}

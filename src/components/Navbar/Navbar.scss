@@ -1,0 +1,160 @@
+.navbar-container{
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid gray ;
+}
+
+.active{
+    color: #02889b;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.items-btns-container{
+    width: 80%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 1rem;
+    width:220px;
+    height:45px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    text-transform: none;
+    background-color: #f0f0f0;
+    transition-duration: 0.3s;
+}
+button:hover {
+    background-color: #333;
+  }
+
+.btn-primary{
+    background-color: #02889b;
+}
+
+.btn-secondary{
+    background-color: #c4cf2c ;
+}
+
+.btn-primary:hover{
+    background-color: #c4cf2c ;
+    
+}
+
+.btn-secondary:hover{
+    background-color: #02889b;
+}
+
+li{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/*En tu hoja de estilos */
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+
+
+.item a:before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu{
+    display: none;
+}
+
+.language-selector{
+    width: 120px;
+    position: relative;
+}
+
+.lang-menu{
+    padding: 2rem;
+    width: 160px;
+    border: 1px solid #02889b;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    gap: 2rem;
+}
+
+.pitem{
+    padding: .25rem;
+}
+
+
+.language-selector:hover ul {
+    display: block;
+    
+}
+
+
+
+.it:before {    
+    background-image: url(https://www.countryflags.com/wp-content/uploads/italy-flag-png-large.png);
+}
+.es:before {
+    background-image: url(https://www.countryflags.com/wp-content/uploads/spain-flag-png-large.png);
+}
+.fr:before {
+    background-image: url(https://www.countryflags.com/wp-content/uploads/france-flag-png-large.png);
+}
+.ge:before {
+    background-image: url(https://www.countryflags.com/wp-content/uploads/germany-flag-png-large.png);
+}
+.en:before {
+    background-image: url(https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png);
+}
