@@ -1,0 +1,83 @@
+.discord{
+  width: 100%;
+  padding: 3rem 0rem;
+  background: rgb(249,152,81);
+  background: linear-gradient(90deg, rgba(249,152,81,1) 0%, rgba(249,181,120,1) 35%, rgba(254,187,43,1) 100%);  
+}
+
+.discord-container{
+  margin-top: 5rem;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: auto;
+  width: 100%;
+}
+
+.left-container-discord{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-wrap: wrap;
+  width: 40%;
+}
+
+.left-container-discord h3{
+  padding: 1rem;
+  margin: 1rem;
+  color: gray;
+  
+  
+}
+
+.left-container-discord h2{
+  
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 3rem;
+  color: white;
+
+}
+
+.left-container-discord p {
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0.5em 0;
+  padding:2rem;
+
+}
+
+.icon-reference{
+  display: flex;
+}
+
+.icon-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-reference img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100% ;
+  border: 2px solid #000011;
+}
+
+
+.hero-image{
+  padding: 2rem;
+  width: 500px;
+  height: auto;
+}
+
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-top: 2rem;
+}

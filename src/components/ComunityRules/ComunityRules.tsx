@@ -1,12 +1,12 @@
 import React from 'react'
 import './ComunityRules.scss'
-import './card.scss'
 import comunidad from '../../assets/comunidad.png'
 import birrte from '../../assets/birrete.png'
 import diploma from '../../assets/diploma.png'
 import finance from '../../assets/finanzas.png'
 import git from '../../assets/git.png'
 import working from '../../assets/work-from-home.png'
+import { Button } from '../Button'
 
 interface IRule {
   figure: string,
@@ -56,7 +56,8 @@ const ComunityRules: React.FC<Props> = () => {
      
   return (
     
-     <div className='container'>
+     <div className='container-comunity'>
+      <div className="content">
         <h3>CONOCE ADEMASS. ES GRATIS, SIEMPRE LO SERÁ.</h3>
         <h2>Los Pilares de nuestra Comunidad</h2>
         
@@ -75,7 +76,10 @@ const ComunityRules: React.FC<Props> = () => {
             })
           }
           
-            
+        </div>
+          <div className='btn-comunity'>
+            <Button  text='ACCEDE AL CAMPUS' button_version='secondary'/>
+          </div>
         </div>
       </div>
     

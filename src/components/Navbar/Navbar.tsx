@@ -65,16 +65,17 @@ const Navbar = () => {
         <nav className="navbar">
         <div className="logo-container">
             <img className="logo" src={logo} alt="logo" />
+            <span>CLONE</span>
         </div>
 
 
         <div className="items-btns-container">
             
             <ul className="items">
-                <li className="item active"><a href="#">Inicio</a></li>
-                <li className="item"><a href="#">Empresas</a></li>
-                <li className="item"><a href="#">Rocktars</a></li>
-                <li className="item"><a href="#">Blog</a></li>
+                <li className="itema active"><a href="#">Inicio</a></li>
+                <li className="itema"><a href="#">Empresas</a></li>
+                <li className="itema"><a href="#">Rocktars</a></li>
+                <li className="itema"><a href="#">Blog</a></li>
             </ul>
 
             <div className="btns">

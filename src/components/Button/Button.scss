@@ -3,7 +3,7 @@
     color: black; 
     padding: 14px 28px; 
     cursor: pointer; 
-    border-radius: 30%; 
+    border-radius: 25px; 
     font-size: larger;
   }
   
@@ -13,7 +13,7 @@
   .secondary {background-color: white; border: 2px solid #c4cf2c; color: #c4cf2c;} 
   .secondary:hover {background: #c4cf2c; color: white;}
   
-  .success {background-color: white; border: 2px solid #04AA6D;} 
+  .success {background-color: white; border: 2px solid #c4cf2c; color: #c4cf2c;} 
   .success:hover {background-color: #46a049; color: white;}
   
   .warning {background-color: white; border: 2px solid #ff9800;} 

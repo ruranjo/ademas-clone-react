@@ -7,7 +7,7 @@ interface Props {
     button_version?: string
 }
 
-const Navbar: React.FC<Props> = ({text, button_version = 'secondary'}) => {
+const Button: React.FC<Props> = ({text, button_version = 'secondary'}) => {
   
     
   return (
@@ -17,4 +17,4 @@ const Navbar: React.FC<Props> = ({text, button_version = 'secondary'}) => {
 
  }
 
-export default Navbar
+export default Button

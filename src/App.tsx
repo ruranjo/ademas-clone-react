@@ -1,6 +1,6 @@
 
 import './App.css'
-import { ComunityRules, FigureIntro, Navbar } from './components'
+import { ComunityRules, DiscordSection, FigureIntro, Navbar } from './components'
 import { Heropage } from './components/Heropage'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <FigureIntro/>
       <Heropage/>
       <ComunityRules/>
+      <DiscordSection/>
     </>
   )
    
